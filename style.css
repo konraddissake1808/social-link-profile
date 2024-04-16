@@ -12,13 +12,13 @@ body {
 @media (width < 321px) {
     #content-card-container {
         width: 290px;
-        height: 80%;
+        height: 630px;
     }
 
     #content-card {
         width: 100%;
         height: 100%;
-        background-color: hsl(0, 0%, 20%);
+        background-color: hsl(0, 0%, 12%);
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -58,13 +58,14 @@ body {
     }
 
     img {
-        width: 110px;
+        width: 90px;
         border-radius: 50%;
     }
 
     .text {
         font-family: Inter;
         color: white;
+        text-decoration: none;
     }
 
     #name {
@@ -82,6 +83,44 @@ body {
     #bio {
         text-align: center;
         margin-top: 24px;
+    }
+
+    #links-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links-containers {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 20%);
+        margin: 8px 0;
+        border-radius: 8px;
+    }
+
+    .links {
+        font-weight: 600;
+    }
+
+    .links-containers:hover {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(75, 94%, 57%);
+        margin: 8px 0;
+        border-radius: 8px;
+        .links {
+            color: hsl(0, 0%, 12%);
+        }
+        transition: 0.5s;
     }
 }
 
