@@ -1,0 +1,110 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+@media (width < 321px) {
+    #content-card-container {
+        width: 290px;
+        height: 80%;
+    }
+
+    #content-card {
+        width: 100%;
+        height: 100%;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content-container {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #profile-picture-container {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 110px;
+        border-radius: 50%;
+    }
+
+    .text {
+        font-family: Inter;
+        color: white;
+    }
+
+    #name {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    #location {
+        margin: 0;
+        color: hsl(75, 94%, 57%);
+        font-weight: 400;
+    }
+
+    #bio {
+        text-align: center;
+        margin-top: 24px;
+    }
+}
+
+@media (320 < width < 376) {
+
+}
+
+@media (375 < width < 426) {
+
+}
+
+@media (425 < width < 769) {
+
+}
+
+@media (768 < width < 1025) {
+
+}
+
+@media (1024 < width < 1441) {
+
+}
+
+@media (width > 1440) {
+    
+}
